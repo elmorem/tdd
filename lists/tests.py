@@ -19,9 +19,3 @@ class HomePageTest(TestCase):
         self.assertTrue(html.endswith('</html>'))
 
 
-
-
-class SmokeTest(TestCase):
-
-    def test_bad_maths(self):
-        self.assertEqual(1 + 1, 3)
